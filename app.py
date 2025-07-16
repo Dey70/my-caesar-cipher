@@ -64,3 +64,7 @@ shift = st.slider("Shift amount", 1, 25, 3)
 if st.button("Run Caesar Cipher"):
     result = caesar_cipher(text, shift, mode)
     st.success(f"The {mode.lower()}d text is: {result}")
+
+# Footer
+st.markdown("---")
+st.markdown("<center>✨ Made by Rajdeep 4 fun ✨</center>", unsafe_allow_html=True)
