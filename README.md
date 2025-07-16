@@ -81,5 +81,5 @@ This project is open-source and free to use for fun or educational purposes. ✌
 If you found this project helpful, fun, or have suggestions for improvement, feel free to:
 
 - ⭐ Star the repo
-- 🐛 [Open an issue](https://github.com/Dey70/my-caesar-cipher/issuess)
+- 🐛 [Open an issue](https://github.com/Dey70/my-caesar-cipher/issues)
 - 🐦 Reach out on [Twitter / X](https://x.com/Observer_x70)
