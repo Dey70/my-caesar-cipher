@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Title & Banner
+
 st.set_page_config(page_title="Caesar Cipher", page_icon="🔐")
 
 st.markdown("""
@@ -18,10 +18,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Header with better spacing
+
 st.markdown('<div class="header"><h1>🔐 Caesar Cipher Encryption Tool</h1></div>', unsafe_allow_html=True)
 
-# Improved ASCII Art with better alignment
+
 st.markdown('<div class="ascii-art">' + r"""
   ____                    ____       _               
  / ___|__ _ ___  ___ _ __/ ___|  ___(_) ___ _ __ ___ 
@@ -40,7 +40,8 @@ st.markdown('<div class="ascii-art">' + r"""
                        | |                  
                        |_|                  
 """ + '</div>', unsafe_allow_html=True)
-# Caesar Cipher function
+
+
 alphabet = list("abcdefghijklmnopqrstuvwxyz")
 
 def caesar_cipher(text, shift, mode):
@@ -56,7 +57,6 @@ def caesar_cipher(text, shift, mode):
             result += char
     return result
 
-# User Input
 mode = st.radio("Choose an operation:", ["Encode", "Decode"])
 text = st.text_input("Enter your message:").lower()
 shift = st.slider("Shift amount", 1, 25, 3)
