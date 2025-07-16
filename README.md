@@ -2,7 +2,7 @@
 
 This is a fun web-based implementation of the **Caesar Cipher** — a simple encryption algorithm that shifts characters in your message. Built using [Streamlit](https://streamlit.io), this app runs directly in your browser with an interactive UI.
 
-![screenshot](screenshot/Screenshot 2025-07-16 202252.png)
+![screenshot](/screenshot/Screenshot%202025-07-16%20202252.png)
 
 ---
 
