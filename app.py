@@ -2,7 +2,6 @@ import streamlit as st
 
 # Title & Banner
 st.set_page_config(page_title="Caesar Cipher", page_icon="🔐")
-st.markdown("## 🔐 Caesar Cipher Encryption Tool")
 
 st.markdown("""
 <style>
